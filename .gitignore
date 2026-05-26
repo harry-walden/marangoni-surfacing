@@ -1,0 +1,18 @@
+# Local cluster configuration (paths, partitions)
+cluster_config.sh
+
+# SLURM / job artifacts
+slurm-*.out
+slurm-*.err
+ma_list.txt
+index_record.txt
+.index_lock
+
+# Simulation outputs (HDF5 snapshot directories)
+snapshots*/
+snapshots_cts*/
+
+# Python / notebook
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
